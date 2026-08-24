@@ -360,14 +360,14 @@ body {
 .detalhes-personagem li {
   margin-bottom: 8px;
 }
-/*
+
 .personagem-card h3 {
   margin: 0 0 10px;
 }
 
 .personagem-card > p {
   color: var(--cor-texto-secundario);
-}*/
+}
 
 .botao-detalhes {
   margin: 0 20px 20px;
@@ -385,6 +385,12 @@ body {
 
 .botao-detalhes:hover {
   background-color: var(--cor-principal);
+}
+
+/* Esconde personagens filtrados */
+
+.personagem-card.escondido {
+  display: none;
 }
 
 /* =========================

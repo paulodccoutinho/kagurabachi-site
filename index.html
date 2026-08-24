@@ -145,16 +145,23 @@
 
           <!-- FILTROS -->
           <div class="filtros">
-            <button class="filtro ativo">Todos</button>
+            <button class="filtro ativo" data-categoria="todos">Todos</button>
+
+            <button class="filtro" data-categoria="aliado">Aliados</button>
+
+            <button class="filtro" data-categoria="inimigo">Inimigos</button>
+          </div>
+
+          <!--<button class="filtro ativo">Todos</button>
 
             <button class="filtro">Aliados</button>
 
             <button class="filtro">Inimigos</button>
-          </div>
+          </div>-->
 
           <!-- CARDS DOS PERSONAGENS -->
           <div class="lista-personagens">
-            <article class="personagem-card">
+            <article class="personagem-card" data-categoria="aliado">
               <div class="personagem-imagem">
                 <p>Imagem do Chihiro</p>
               </div>
@@ -182,7 +189,7 @@
               </div>
             </article>
 
-            <article class="personagem-card">
+            <article class="personagem-card" data-categoria="aliado">
               <div class="personagem-imagem">
                 <p>Imagem do Shiba</p>
               </div>
@@ -209,7 +216,7 @@
               </div>
             </article>
 
-            <article class="personagem-card">
+            <article class="personagem-card" data-categoria="aliado">
               <div class="personagem-imagem">
                 <p>Imagem do personagem</p>
               </div>
@@ -229,6 +236,61 @@
                     <li>Possui habilidades especiais.</li>
                     <li>Tem um papel importante na narrativa.</li>
                     <li>É protegida por seus aliados.</li>
+                  </ul>
+                </div>
+
+                <button class="botao-detalhes">Ver mais</button>
+              </div>
+            </article>
+
+            <article class="personagem-card" data-categoria="aliado">
+              <div class="personagem-imagem">
+                <p>Imagem do personagem</p>
+              </div>
+
+              <div class="personagem-conteudo">
+                <h3>Kunishige Rokuhira</h3>
+
+                <p>
+                  Era o único ferreiro que conseguia forjar as lâminas
+                  enfeitiçadas. Dizem que elas deram fim à Guerra Seitei há
+                  dezoito anos.
+                </p>
+
+                <div class="detalhes-personagem">
+                  <h4>Informações</h4>
+
+                  <ul>
+                    <li>Ferreiro muito habilidoso.</li>
+                    <li>Pai do Chihiro Rokuhira.</li>
+                    <li>Foi morto em um ataque há 3 anos.</li>
+                  </ul>
+                </div>
+
+                <button class="botao-detalhes">Ver mais</button>
+              </div>
+            </article>
+
+            <article class="personagem-card" data-categoria="inimigo">
+              <div class="personagem-imagem">
+                <p>Imagem do antagonista</p>
+              </div>
+
+              <div class="personagem-conteudo">
+                <h3>Personagem Antagonista</h3>
+
+                <p>
+                  Um personagem que representa uma ameaça e entra em conflito
+                  com os objetivos do protagonista.
+                </p>
+
+                <div class="detalhes-personagem">
+                  <h4>Informações</h4>
+
+                  <ul>
+                    <li>Possui habilidades próprias de combate.</li>
+                    <li>Está envolvido nos conflitos da história.</li>
+                    <li>Representa uma ameaça aos protagonistas.</li>
                   </ul>
                 </div>
 
